@@ -1,7 +1,9 @@
+import PasswordGenerator from "./passwordGenerator/passwordGenerator";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <PasswordGenerator/>
     </div>
   );
 }
